@@ -1,0 +1,27 @@
+site_name: Unified Platform
+site_description: Документация проекта для зачета лабораторных работ по средствам Web-программирования
+site_author: Шаповалов Илья Андреевич, К3339
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+  - Покрытие лабораторных: lab-coverage.md
+  - Архитектура: architecture.md
+  - API: api.md
+  - Разработка: development.md
+  - Эксплуатация: operations.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
